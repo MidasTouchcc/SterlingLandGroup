@@ -118,7 +118,7 @@ h1, h2, h3, .logo {
 .hero {
     height: 100vh; /* Full Viewport */
     background-color: var(--dark-earth); /* Solid fallback */
-    background-image: url('assets/images/hero.jpg'); /* Connects to your local image */
+    background-image: url('assets/images/spanish-bay/spanish-bay-exterior.webp'); /* Homepage hero */
     background-size: cover;
     background-position: center;
     position: relative;
