@@ -170,6 +170,37 @@ h1, h2, h3, .logo {
     color: var(--terracotta);
 }
 
+/* --- Services (What We Do) --- */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.service {
+    background-color: var(--cream);
+    padding: 2.5rem 2rem;
+    border-radius: 8px;
+    border-top: 3px solid var(--terracotta);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    color: var(--dark-earth);
+    margin-bottom: 0.75rem;
+}
+
+.service p {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
 .project-placeholder {
     width: 100%;
     aspect-ratio: 3 / 2;
@@ -258,7 +289,7 @@ footer {
 
 /* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
-    .project-grid, .form-row {
+    .project-grid, .form-row, .services-grid {
         grid-template-columns: 1fr;
     }
     
