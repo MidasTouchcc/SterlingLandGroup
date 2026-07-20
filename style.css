@@ -71,6 +71,11 @@ h1, h2, h3, .logo {
     display: flex;
     gap: 2rem;
     align-items: center;
+    list-style: none;
+}
+
+.nav-links li {
+    display: flex;
 }
 
 .nav-links a {
